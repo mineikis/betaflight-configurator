@@ -5224,6 +5224,9 @@
     "osdSetupWarningsTitle": {
         "message": "Warnings"
     },
+    "osdSetupMGRSTitle": {
+        "message": "MGRS"
+    },
     "osdSetupFontPresets": {
         "message": "Font presets:"
     },
@@ -5761,6 +5764,13 @@
     },
     "osdDescElementWarnings": {
         "message": "Alerts (e.g. low battery), warnings (e.g. reasons for not arming, critically low battery) and visual beeper (4 flashing asterisks)."
+    },
+    "osdTextElementMGRS": {
+        "message": "MGRS",
+        "description": "Military grade reference system"
+    },
+    "osdDescElementMGRS": {
+        "message": "Displays Military Grade reference system coordinates (precision 10m)"
     },
     "osdTextElementEscTemperature": {
         "message": "ESC temperature",

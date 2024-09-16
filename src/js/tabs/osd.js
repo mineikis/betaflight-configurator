@@ -1048,6 +1048,15 @@ OSD.loadDisplayFields = function() {
             positionable: true,
             preview: 'LOW VOLTAGE',
         },
+        MGRS: {
+            name: 'MGRS',
+            text: 'osdTextElementMGRS',
+            desc: 'osdDescElementMGRS',
+            defaultPosition: -1,
+            draw_order: 220,
+            positionable: true,
+            preview: '4Q FJ 12345 67890',
+        },
         ESC_TEMPERATURE: {
             name: 'ESC_TEMPERATURE',
             text: 'osdTextElementEscTemperature',
@@ -1898,6 +1907,7 @@ OSD.chooseFields = function() {
         F.POWER,
         F.PID_RATE_PROFILE,
         F.WARNINGS,
+        F.MGRS,
         F.AVG_CELL_VOLTAGE,
         F.GPS_LON,
         F.GPS_LAT,
